@@ -40,5 +40,20 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // Create ListView
+        // Set up Sample Array
+        int[] img = new int[] {
+            R.drawable.assassin_logo,
+            R.drawable.assassin_logo,
+            R.drawable.assassin_logo
+        };
+
+        // Set up Array By XML.
+        String[] title = getResources().getStringArray(R.array.title);
+        String[] detail = getResources().getStringArray(R.array.detail);
+
+        MyAdapter adapter = new MyAdapter(this,img,title,detail);
+        main_ListView.setAdapter(adapter);
     }
 }

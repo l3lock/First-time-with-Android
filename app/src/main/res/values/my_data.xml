@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // Title
+    <string-array name="title">
+        <item>Title 1</item>
+        <item>Title 2</item>
+        <item>Title 3</item>
+    </string-array>
+
+    // Detail
+    <string-array name="detail">
+        <item>Title 1</item>
+        <item>Title 2</item>
+        <item>Title 3</item>
+    </string-array>
+</resources>

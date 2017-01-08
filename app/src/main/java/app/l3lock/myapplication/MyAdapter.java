@@ -53,8 +53,8 @@ public class MyAdapter extends BaseAdapter{
 
         // Bind widget
         ImageView imageView = (ImageView) view1.findViewById(R.id.logo_1);
-        TextView title_TextView = (TextView) view1.findViewById(R.id.Title_1);
-        TextView detail_TextView = (TextView) view1.findViewById(R.id.Detail_1);
+        TextView title_TextView = (TextView) view1.findViewById(R.id.Title);
+        TextView detail_TextView = (TextView) view1.findViewById(R.id.Detail);
 
         imageView.setImageResource(img[i]);
         title_TextView.setText(title[i]);

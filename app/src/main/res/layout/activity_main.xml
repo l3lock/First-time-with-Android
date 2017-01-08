@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title_name"
-        android:id="@+id/title"
+        android:id="@+id/Title"
         android:textColor="@color/text"
         android:textSize="@dimen/h1"
         android:layout_alignParentTop="false"
@@ -25,13 +25,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/main_ListView"
-        android:layout_below="@+id/title"
+        android:layout_below="@+id/Title"
         android:layout_above="@+id/start_button"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp" />
 
     <Button
-        android:text="Start"
+        android:text="About Me"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/start_button"
